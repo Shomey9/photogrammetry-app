@@ -30,7 +30,7 @@
               }
             ],
             "styles": [
-              "src/styles.css",
+              "src/styles.scss",
               "node_modules/cesium/Build/Cesium/Widgets/widgets.css"
             ],
             "scripts": ["node_modules/cesium/Build/Cesium/Cesium.js"],
@@ -46,7 +46,7 @@
                 {
                   "type": "initial",
                   "maximumWarning": "500kB",
-                  "maximumError": "1MB"
+                  "maximumError": "10MB"
                 },
                 {
                   "type": "anyComponentStyle",
