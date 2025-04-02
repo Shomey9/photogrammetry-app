@@ -88,11 +88,12 @@
             "assets": [
               {
                 "glob": "**/*",
-                "input": "public"
+                "input": "node_modules/cesium/Build/Cesium",
+                "output": "assets/cesium"
               }
             ],
             "styles": ["src/styles.scss"],
-            "scripts": []
+            "scripts": ["node_modules/cesium/Build/Cesium/Cesium.js"]
           }
         }
       }
